@@ -94,6 +94,10 @@ class TranslationInstaller:
         subtitle_label = tk.Label(header_frame, text="Ghost of a Tale — Português Brasil", 
                                  font=self.sub_font, fg="#666666", bg=self.root["bg"])
         subtitle_label.pack(pady=(5, 0))
+
+        version_label = tk.Label(header_frame, text="Versão base: 8.33 (GOG)", 
+                                font=("Segoe UI", 8), fg="#E65100", bg=self.root["bg"])
+        version_label.pack(pady=(2, 0))
         
         # --- Frame de Seleção ---
         input_frame = ttk.LabelFrame(main_frame, text="Localização do Arquivo", padding="20")
