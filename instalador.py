@@ -1,5 +1,5 @@
 import tkinter as tk
-from tkinter import ttk, filedialog, messagebox, font # Adicionado import font
+from tkinter import ttk, filedialog, messagebox, font
 import json
 import os
 import zlib
@@ -8,7 +8,6 @@ import shutil
 import sys
 import threading
 
-# Nome fixo do arquivo de patch
 PATCH_FILENAME = "patch_traducao.json"
 
 class TranslationInstaller:
@@ -18,28 +17,21 @@ class TranslationInstaller:
         self.root.geometry("650x500")
         self.root.resizable(False, False)
         
-        # Variáveis
         self.target_file = tk.StringVar()
         
-        # --- Configuração de Estilo (Aparência) ---
-        self.setup_styles() # Configura estilos antes de checar fontes para garantir tema
+        self.setup_styles()
         
-        # Definir fontes com fallback seguro
         self.header_font = ("Segoe UI", 16, "bold") if self.check_font("Segoe UI") else ("Arial", 16, "bold")
         self.sub_font = ("Segoe UI", 10) if self.check_font("Segoe UI") else ("Arial", 10)
         self.norm_font = ("Segoe UI", 9) if self.check_font("Segoe UI") else ("Arial", 9)
         self.bold_font = ("Segoe UI", 9, "bold") if self.check_font("Segoe UI") else ("Arial", 9, "bold")
         self.console_font = ("Consolas", 9) if self.check_font("Consolas") else ("Courier New", 9)
 
-        # Configurar peso das colunas para centralização
         self.root.columnconfigure(0, weight=1)
         
-        # Criar interface
         self.create_widgets()
 
     def check_font(self, font_name):
-        """Verifica se uma fonte existe no sistema"""
-        # Correção aplicada aqui: usa 'font.families()' diretamente
         return font_name in font.families()
 
     def setup_styles(self):
@@ -53,20 +45,17 @@ class TranslationInstaller:
 
         self.root.configure(bg=bg_color)
 
-        # Configuração genérica
         style.configure("TFrame", background=bg_color)
         style.configure("TLabel", background=bg_color, foreground=text_color)
         style.configure("TLabelframe", background=bg_color, foreground=text_color)
         style.configure("TLabelframe.Label", background=bg_color, foreground=text_color)
 
-        # Estilo do Botão Normal
         style.configure("TButton", padding=5)
         style.map("TButton",
                   foreground=[('pressed', 'black'), ('active', 'black')],
                   background=[('pressed', '!disabled', '#dedede'), ('active', '#ececec')]
                   )
-
-        # Estilo do Botão de Ação Principal
+        
         style.configure("Accent.TButton", 
                         font=("Segoe UI", 11, "bold"), 
                         background=accent_color, 
@@ -83,7 +72,6 @@ class TranslationInstaller:
         main_frame = ttk.Frame(self.root, padding="30")
         main_frame.pack(fill=tk.BOTH, expand=True)
         
-        # --- Cabeçalho ---
         header_frame = ttk.Frame(main_frame)
         header_frame.pack(fill=tk.X, pady=(0, 25))
 

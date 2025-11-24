@@ -33,6 +33,12 @@ Se você tem receio de executáveis ou quer ver como a mágica acontece:
 3.  Instale o Tkinter (`pip install tk` - geralmente já vem com o Python).
 4.  Execute o script `instalador.py` (o arquivo `patch_traducao.json` deve estar na mesma pasta).
 
+**Para compilação eu usei o Nuitka**
+ ```
+ python -m nuitka --onefile --windows-disable-console --enable-plugin=tk-inter --windows-uac-admin 
+--include-data-file="patch_traducao.json=patch_traducao.json" instalador.py 
+```
+
 -----
 
 ### 📋 Como Instalar
@@ -110,6 +116,11 @@ Se quiser remover a tradução e voltar para o inglês:
 
 * Este patch foi feito para a versão PC (Steam/GOG).
 * Se o jogo atualizar, a tradução pode parar de funcionar. Basta usar a opção de "Verificar integridade dos arquivos" na Steam e reinstalar a tradução se houver uma versão compatível.
+
+#### Compatibilidade
+Esta tradução foi criada e testada na versão **8.33 (GOG)** do jogo.
+* Pode funcionar na versão Steam? **Provavelmente sim**, mas não foi testada.
+* Se sua versão for mais antiga ou mais nova, o patch pode parar de funcionar.
 
 **Créditos:**
 * Tradução e Ferramenta por: Matheus Araújo
