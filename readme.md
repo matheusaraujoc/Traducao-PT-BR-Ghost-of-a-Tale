@@ -10,7 +10,7 @@ Escolha a plataforma de sua preferência para baixar:
 
 A maneira mais comum para jogadores de PC.
 
-1.  Acesse a página do mod no Nexus: **[Link para o seu Mod no Nexus]**.
+1.  Acesse a página do mod no Nexus: **[Ainda não disponível]**.
 2.  Vá até a aba **Files**.
 3.  Clique em **Manual Download** no arquivo "Tradução PT-BR - Instalador".
 4.  Execute o arquivo baixado.
