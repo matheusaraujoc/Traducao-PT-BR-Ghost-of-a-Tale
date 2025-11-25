@@ -20,7 +20,7 @@ A maneira mais comum para jogadores de PC.
 Download direto do repositório.
 
 1.  Vá até a aba **https://github.com/matheusaraujoc/Traducao-PT-BR-Ghost-of-a-Tale/releases/tag/v1.0** aqui ao lado.
-2.  Baixe o arquivo **`Instalador_GhostOfATale_PTBR.exe`**.
+2.  Baixe o arquivo **`GhostOfATale_Traducao_PTBR_v1.0.exe`**.
 
 Ou clique nesse link para download direto: **https://github.com/matheusaraujoc/Traducao-PT-BR-Ghost-of-a-Tale/releases/download/v1.0/GhostOfATale_Traducao_PTBR_v1.0.exe**
 
@@ -28,7 +28,7 @@ Ou clique nesse link para download direto: **https://github.com/matheusaraujoc/T
 
 ### 🔎 Opção 3: Para Desenvolvedores (Código Fonte)
 
-Se você tem receio de executáveis ou quer ver como a mágica acontece:
+Se você tem receio de executáveis ou quer ver como o instalador funciona:
 
 1.  Clone este repositório.
 2.  Certifique-se de ter Python instalado.
