@@ -24,7 +24,7 @@ Download direto do repositório.
 
 Ou clique nesse link para download direto: **https://github.com/matheusaraujoc/Traducao-PT-BR-Ghost-of-a-Tale/releases/download/v1.0/GhostOfATale_Traducao_PTBR_v1.0.exe**
 
-------
+--------
 
 ### 🔎 Opção 3: Para Desenvolvedores (Código Fonte)
 
