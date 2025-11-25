@@ -19,7 +19,7 @@ A maneira mais comum para jogadores de PC.
 
 Download direto do repositório.
 
-1.  Vá até a aba **[link suspeito removido]** aqui ao lado.
+1.  Vá até a aba **https://github.com/matheusaraujoc/Traducao-PT-BR-Ghost-of-a-Tale/releases/tag/v1.0** aqui ao lado.
 2.  Baixe o arquivo **`Instalador_GhostOfATale_PTBR.exe`**.
 
 -----
