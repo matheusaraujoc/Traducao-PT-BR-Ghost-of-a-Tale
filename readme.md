@@ -91,7 +91,6 @@ Como mencionado, minha especialidade é código. Para o texto, utilizei um fluxo
   * **Revisão:** A revisão foi feita dentro do tempo limitado do fim de semana.
   * **Expectativa:** Você pode encontrar inconsistências de contexto ou termos literais. O foco foi a compreensão geral da história e das mecânicas.
 
-*Aproveite o jogo\!*
 
 -----
 
@@ -126,3 +125,5 @@ Esta tradução foi criada e testada na versão **8.33 (GOG)** do jogo.
 
 **Créditos:**
 * Tradução e Ferramenta por: Matheus Araújo
+
+*Aproveite o jogo\!*
